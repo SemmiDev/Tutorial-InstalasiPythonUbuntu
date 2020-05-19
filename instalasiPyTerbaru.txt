@@ -1,0 +1,10 @@
+1. download tar.xz di situs resmi python
+2. extract di folder mana saja : tar -xf namaFile
+3. masuk ke folder yg di extract
+4. ./configure --enable-optimizations
+5. make -j cpuCoreTotal (cara cek : nproc)
+6. sudo make altinstall
+7. set default : nano ~/.bashrc
+8. dipaling bawah isi file bashrc : alias python='/usr/local/bin/python3.8' (/* disesuaikan dengan lokasi instalasi python)
+* cara cek lokasi suatu file :  whereis namaFile/whatever
+
